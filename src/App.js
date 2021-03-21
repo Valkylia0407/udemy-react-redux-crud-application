@@ -2,7 +2,12 @@ import React , { Component } from 'react';
 
 class App extends Component {
   render(){
-    return <div><p>Hello React!</p></div>;
+    return( 
+      <React.Fragment>
+	<label htmlFor="bar">bar</label>
+	<input className="text" type="text" onClick={() => {console.log("I am clicked!!")}} />
+      </React.Fragment>
+	)
   }
 }
 
