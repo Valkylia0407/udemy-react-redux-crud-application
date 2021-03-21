@@ -11,4 +11,17 @@ class App extends Component {
   }
 }
 
-export default App;
+const Cry = () => {
+  return (
+    <div>
+      <Cat />
+      <Cat />
+    </div>
+)
+}
+
+const Cat = () =>{
+  return <h1>Meow!!</h1>
+}
+
+export default Cry;
